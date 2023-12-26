@@ -16,8 +16,8 @@ body {
   align-items: center;
   justify-content: center;
   background-image: url('https://media.giphy.com/media/f03np8FngnDDweFsCR/giphy.gif');
-  background-size: contain;
-  background-position: left center;
+  
+  background-position: top left;
   background-repeat: no-repeat;
   position: relative;
 }
@@ -30,8 +30,7 @@ body {
   background-color: rgba(198, 202, 204, 0.4);
   box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
   position: absolute;
-  margin-left: 400px;
-  margin-top: 200px;
+  margin-left: 100px;
 }
 
 .quote-text {
@@ -48,7 +47,7 @@ body {
 
 .quote-author {
   margin-top: 15px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 400;
   font-style: italic;
 }
@@ -70,6 +69,7 @@ button {
   padding: 0.5rem 1.8rem;
   box-shadow: 0 0.3rem rgba(121, 121, 121, 0.65);
   margin-top: 20px;
+  outline: none;
 }
 
 button:hover {
@@ -95,6 +95,10 @@ button:active {
 .category-selection {
   border: 1px solid #e5e5e5;
   padding: 10px;
+}
+
+#category {
+  outline: none;
 }
 
 select {
@@ -138,10 +142,11 @@ select {
   }
 
   .quote-container {
-    margin-top: 800px;
+    margin-top: 400px;
   }
 
   body {
-    background-position: center;
+    background-position: top center;
+    background-size: 400px;
   }
 }

@@ -27,6 +27,11 @@ function toggleButton() {
   newQuoteBtn.disabled = !newQuoteBtn.disabled;
 }
 
+document.addEventListener("DOMContentLoaded", function () {
+  // Call getQuotes to pre-populate a quote when the page loads
+  getQuotes();
+});
+
 function tellMe(quote) {
   VoiceRSS.speech({
       key: '91c7325e7ed5452884b2438ad55b2e61',

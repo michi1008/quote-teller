@@ -154,13 +154,22 @@ select {
   }
 
   .quote-container {
-    width: 100vw;
+    width: 90%;
     padding: 20px 30px;
     border-radius: 10px;
     background-color: rgba(198, 202, 204, 0.4);
     box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
     position: absolute;
-    margin-left: 100px;
-    margin-top: 20rem;
+    margin-top: 40rem;
+  }
+
+  .button-container {
+    align-items: center;
+  }
+
+  button {
+    width: 8rem;
+    height: 4rem;
+    font-size: 1rem;
   }
 }

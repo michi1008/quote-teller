@@ -160,7 +160,6 @@ select {
 
   .quote-container {
     width: 100vh;
-    padding: 0 20px;
     border-radius: 10px;
     background-color: rgba(198, 202, 204, 0.4);
     box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
@@ -177,5 +176,24 @@ select {
     width: 8rem;
     height: 4rem;
     font-size: 1rem;
+  }
+
+  .quote-text {
+    font-size: 2rem;
+  }
+  
+  .long-quote {
+    font-size: 0.8rem;
+  }
+  
+  .fa-quote-left {
+    font-size: 2rem;
+  }
+  
+  .quote-author {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-style: italic;
   }
 }

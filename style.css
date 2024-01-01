@@ -29,7 +29,10 @@ body {
   background-color: rgba(198, 202, 204, 0.4);
   box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
   position: absolute;
-  margin-left: 100px;
+  margin-left: 12rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .quote-text {
@@ -127,7 +130,7 @@ select {
 }
 
 /* Media Query: Tablet or Smaller  */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
   .quote-container {
     margin: auto 10px;
   }
@@ -147,6 +150,8 @@ select {
   body {
     background-position: top center;
     background-size: 400px;
+    max-width: 100%;
+    overflow-x: hidden;
   }
 
   .button-container {
@@ -154,8 +159,8 @@ select {
   }
 
   .quote-container {
-    width: 90%;
-    padding: 20px 30px;
+    width: 100vh;
+    padding: 0;
     border-radius: 10px;
     background-color: rgba(198, 202, 204, 0.4);
     box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
@@ -165,6 +170,7 @@ select {
 
   .button-container {
     align-items: center;
+    width: 100vh
   }
 
   button {

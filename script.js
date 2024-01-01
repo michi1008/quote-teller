@@ -41,8 +41,6 @@ function tellMe(quote) {
   });
 }
 
-
-
 // // Show New Quote
 function newQuote(result) {
   loading();
